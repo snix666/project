@@ -9,7 +9,28 @@
     display: block;
     padding: 10px;
     margin: 5px;
-    background-color: rgb(62, 120, 167);
+    background-color: rgb(212, 8, 212);
     color: rgb(255, 255, 255);
     text-decoration: none;
    }   
+   .header__login{
+    display: inline-block;
+     padding: 10px;
+     margin: 5px;
+     background-color: rgb(95, 103, 110);
+     color: rgb(255, 255, 255);
+     text-decoration: none;
+    }
+    .header__logo-wrap{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+       }
+       .header__logo-wrap{
+        text-decoration: none;
+        color: rgb(173, 18, 135);
+       }
+       .header__title{
+        margin: 0;
+       }
+    
