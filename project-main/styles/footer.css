@@ -1,0 +1,27 @@
+.footer {
+    display:flex; 
+    justify-content: space-between;
+    background-color: rgb(0, 155, 70);
+}
+.footer__us{
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-style: italic;
+    color: rgb(255, 255, 255)
+   }
+   .trainers__socials-item {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 0.5s background-color ease-out;
+}
+.trainers__socials-item:hover {
+    background-color: aquamarine;
+}
+.trainers__socials-link {
+    text-decoration: none;
+}
